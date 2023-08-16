@@ -102,6 +102,7 @@ main {
 
 .icons {
   margin-right: 15px;
+  margin-top: 15px;
 }
 .rightspanlink {
   margin-left: 16px;
@@ -167,4 +168,6 @@ main {
   background-color: black;
   width: 333px;
 }
-
+.iconslist ul {
+  margin-top: -20px;
+}
