@@ -1,0 +1,108 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  margin-left: 200px;
+}
+header {
+  display: flex;
+  width: 1000px;
+
+  background-color: #8a0000;
+  color: white;
+  margin-top: 20px;
+}
+.bio {
+  width: 600px;
+}
+.myimage {
+  width: 400px;
+}
+.myimage img {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 230px;
+  padding: 20px;
+}
+
+.stylebio {
+  margin-left: 60px;
+}
+
+.biotext {
+  margin-right: 300px;
+}
+
+aside {
+  width: 300px;
+  margin-left: 100px;
+}
+section {
+  width: 500px;
+}
+
+main {
+  display: flex;
+  width: 1000px;
+  background-color: floralwhite;
+}
+.Allmain {
+  display: flex;
+}
+
+.stylebio h3 {
+  margin-top: -20px;
+}
+
+.RightSide h2 {
+  font-size: 26px;
+  padding: 5px;
+  padding-left: 20px;
+  background-color: #8b0000;
+  width: 350px;
+
+  color: white;
+}
+
+.Name {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.Date {
+  font-weight: bold;
+}
+
+.Desc {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.LeftSide {
+  font-size: 20px;
+}
+.LeftSide ul li {
+  font-size: 15px;
+}
+.LeftSide ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.LeftSide {
+  margin-left: 100px;
+}
+.RightSide {
+  margin-left: 20px;
+}
+.icons {
+  color: #8a0000;
+}
+
+.icons {
+  margin-right: 15px;
+}
+.rightspanlink {
+  margin-left: 16px;
+}
