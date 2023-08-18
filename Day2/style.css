@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 ul {
   background-color: gray;
   width: 500px;
@@ -9,6 +10,7 @@ ul {
   padding: 0;
   display: flex;
   list-style-type: none;
+  border-radius: 5px;
 }
 li {
   transition: 1s;
@@ -48,3 +50,10 @@ p {
   color: darkred;
   font-weight: bold;
 }
+.firstrow {
+  display: flex;
+}
+.secondrow {
+  display: flex;
+}
+
