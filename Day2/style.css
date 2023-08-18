@@ -24,7 +24,7 @@ i {
 li:hover {
   background-color: #90ee90;
 }
-i :hover {
+i:hover {
   color: greenyellow;
 }
 
