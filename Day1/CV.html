@@ -20,6 +20,7 @@
             Ungraduted sotfware engineering Computer science stundent
             Mentoring & coaching
           </p>
+          <p><time> 2002-7-11 </time></p>
         </div>
       </div>
     </header>
@@ -27,7 +28,36 @@
         
     <div class="Allmain">
       <aside class="LeftSide">
-        <h2 >Contact</h2>
+        <div id="contact">
+        <h2>
+          Contact
+        </h2>
+      <audio id="ringing-sound" src="sound.wav" preload="auto"></audio>
+
+   
+    </div>
+       <script>document.addEventListener('DOMContentLoaded', function() {
+  var contactSection = document.getElementById('contact');
+  var audio = document.getElementById('ringing-sound');
+  var isPlaying = false;
+
+    contactSection.addEventListener('mouseenter', function() {
+      if (!isPlaying) {
+        audio.currentTime = 0;
+        audio.play();
+        isPlaying = true;
+      }
+    });
+
+    contactSection.addEventListener('mouseleave', function() {
+      if (isPlaying) {
+        audio.pause();
+        audio.currentTime = 0;
+        isPlaying = false;
+      }})
+
+});</script>
+
         <div class="iconslist">
         
           <ul>
@@ -50,31 +80,28 @@
         </div>
         <div><h2>Skills</h2>
         <ul class="Skills">
-          
-          <div class="progress-bar">
-           
-  <progress value="24" min="0" max="100" style="visibility:hidden;height:0;width:0;">Asp.net </progress>
-</div>
-        
-        <div class="progress-bar">
-         
-  <progress value="30" min="0" max="100" style="visibility:hidden;height:0;width:0;"><span>>SQL Server</span</progress>
-</div>
-        
-      <div class="progress-bar">
-  
-  <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">EF Core</progress>
-</div>
-          
-        <div class="progress-bar">
-          
-  <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">Github</progress>
-</div>
+          <div id="grad1">
+            <div id="graddiv1">Asp.net</div>
+          </div>
+          <div id="grad2">
+            <div id="graddiv2">sql server</div>
+          </div>
+          <div id="grad3">
+            <div id="graddiv3">ef core</div>
+          </div>
+
+
+
         </ul>
         </div>
         <div><h2>Online info</h2>
           <span><i class="fa-brands fa-github icons"></i><a href="https://github.com/alyaa999"></a> github</span>
           <span class="rightspanlink"><i class="fa-brands fa-linkedin icons"></i><a href="https://www.linkedin.com/in/alyaa-mamoon-695544175/"></a>linkedin</span>
+        </div>
+           <div> 
+         <video width="200px" height="200px" controls="controls">
+        <source src="IDEA.mp4" type="video/mp4" />
+       </video>
         </div>
       </aside>
       <section class="RightSide">
@@ -123,6 +150,8 @@ South Valley University Qena , CS department
 </p>
           </div>
         </div>
+      
+
       </section>
       </div>
         
@@ -135,6 +164,7 @@ South Valley University Qena , CS department
       <div class="three"></div></div>
       
     </footer>
+
     
   </body>
 </html>
