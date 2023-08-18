@@ -56,4 +56,35 @@ p {
 .secondrow {
   display: flex;
 }
+.image-group {
+  display: flex;
+}
+.gallary {
+  width: 1500px;
+}
 
+img {
+  width: 600px;
+  height: 400px;
+  padding: 40px;
+  transition: transform 0.5s;
+
+}
+img:hover {
+  transform: scale(1.2);
+}
+.title {
+  width: 16%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 900;
+  color: crimson;
+}
+.line {
+  width: 1000px;
+  height: 4px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
