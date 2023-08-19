@@ -18,7 +18,7 @@
 #glass {
   visibility: hidden;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 45%;
   transform: translate(-50%, -50%);
   z-index: 9;
@@ -36,7 +36,7 @@
 #mouth {
   visibility: hidden;
   position: absolute;
-  top: 74%;
+  top: 65%;
   left: 48%;
   transform: translate(-50%, -50%);
   z-index: 9;
@@ -54,7 +54,7 @@
 #eyeRight {
   visibility: hidden;
   position: absolute;
-  top: 57%;
+  top: 55%;
   left: 47%;
   transform: translate(-50%, -50%);
   z-index: 9;
@@ -72,7 +72,7 @@
 #eyeLeft {
   visibility: hidden;
   position: absolute;
-  top: 57%;
+  top: 55%;
   left: 58%;
   transform: translate(-50%, -50%);
   z-index: 9;
