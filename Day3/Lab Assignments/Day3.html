@@ -7,7 +7,9 @@
     <title>Day3</title>
   </head>
   <body>
-    <div id="glass"><p>glass</p></div>
+    <div id="glass"><p>Glass</p></div>
+    <div id="mouth"><p>Mouth</p></div>
+    
     <svg
       xmlns:dc="http://purl.org/dc/elements/1.1/"
       xmlns:cc="http://creativecommons.org/ns#"
@@ -441,26 +443,9 @@
         </g>
       </g>
     </svg>
+        <script src="script.js"></script>
+
   </body>
-  <script>
-    const el = document.getElementById("g34910-9-4");
 
-    const hiddenDiv = document.getElementById("glass");
-
-    // ✅ Show hidden DIV on hover
-    el.addEventListener("mouseover", function handleMouseOver() {
-      hiddenDiv.style.visibility = "visible";
-
-      // 👇️ if you used visibility property to hide the div
-      // hiddenDiv.style.visibility = 'visible';
-    });
-
-    // ✅ (optionally) Hide DIV on mouse out
-    el.addEventListener("mouseout", function handleMouseOut() {
-      hiddenDiv.style.visibility = "hidden";
-
-      // 👇️ if you used visibility property to hide the div
-      // hiddenDiv.style.visibility = 'hidden';
-    });
-  </script>
+  
 </html>
