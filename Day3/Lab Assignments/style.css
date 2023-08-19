@@ -50,3 +50,39 @@
   align-items: center;
   border-radius: 30px 0px 30px 30px;
 }
+
+#eyeRight {
+  visibility: hidden;
+  position: absolute;
+  top: 57%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  width: 80px;
+  font-size: large;
+  font-weight: 900;
+  color: black;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 0px 30px 30px;
+}
+
+#eyeLeft {
+  visibility: hidden;
+  position: absolute;
+  top: 57%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  width: 80px;
+  font-size: large;
+  font-weight: 900;
+  color: black;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 30px 30px 30px;
+}

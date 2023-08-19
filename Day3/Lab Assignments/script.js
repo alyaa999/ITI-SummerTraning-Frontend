@@ -1,39 +1,77 @@
-const el = document.getElementById("g34910-9-4");
+const glassId = document.getElementById("g34910-9-4");
 
-const hiddenDiv = document.getElementById("glass");
+const glassDiv = document.getElementById("glass");
 
 // ✅ Show hidden DIV on hover
-el.addEventListener("mouseover", function handleMouseOver() {
-  hiddenDiv.style.visibility = "visible";
+glassId.addEventListener("mouseover", function handleMouseOver() {
+  glassDiv.style.visibility = "visible";
 
   // 👇️ if you used visibility property to hide the div
   // hiddenDiv.style.visibility = 'visible';
 });
 
 // ✅ (optionally) Hide DIV on mouse out
-el.addEventListener("mouseout", function handleMouseOut() {
-  hiddenDiv.style.visibility = "hidden";
+glassId.addEventListener("mouseout", function handleMouseOut() {
+  glassDiv.style.visibility = "hidden";
 
   // 👇️ if you used visibility property to hide the div
   // hiddenDiv.style.visibility = 'hidden';
 });
 
+const mouthId = document.getElementById("g17779-5");
 
-const el2 = document.getElementById("g17779-5");
-
-const hiddenDiv2 = document.getElementById("mouth");
+const mouthDiv = document.getElementById("mouth");
 
 // ✅ Show hidden DIV on hover
-el2.addEventListener("mouseover", function handleMouseOver() {
-  hiddenDiv2.style.visibility = "visible";
+mouthId.addEventListener("mouseover", function handleMouseOver() {
+  mouthDiv.style.visibility = "visible";
 
   // 👇️ if you used visibility property to hide the div
   // hiddenDiv.style.visibility = 'visible';
 });
 
 // ✅ (optionally) Hide DIV on mouse out
-el2.addEventListener("mouseout", function handleMouseOut() {
-  hiddenDiv2.style.visibility = "hidden";
+mouthId.addEventListener("mouseout", function handleMouseOut() {
+  mouthDiv.style.visibility = "hidden";
+
+  // 👇️ if you used visibility property to hide the div
+  // hiddenDiv.style.visibility = 'hidden';
+});
+
+const leftEyeId = document.getElementById("g50960-32-0-6");
+
+const leftEyeDiv = document.getElementById("eyeLeft");
+
+// ✅ Show hidden DIV on hover
+leftEyeId.addEventListener("mouseover", function handleMouseOver() {
+  leftEyeDiv.style.visibility = "visible";
+
+  // 👇️ if you used visibility property to hide the div
+  // hiddenDiv.style.visibility = 'visible';
+});
+
+// ✅ (optionally) Hide DIV on mouse out
+leftEyeId.addEventListener("mouseout", function handleMouseOut() {
+leftEyeDiv.style.visibility = "hidden";
+
+  // 👇️ if you used visibility property to hide the div
+  // hiddenDiv.style.visibility = 'hidden';
+});
+
+const RightEyeId = document.getElementById("g50960-32-0");
+const RightEyeDiv = document.getElementById("eyeRight");
+
+// ✅ Show hidden DIV on hover
+RightEyeId.addEventListener("mouseover", function handleMouseOver() {
+  RightEyeDiv.style.visibility = "visible";
+
+  // 👇️ if you used visibility property to hide the div
+  // hiddenDiv.style.visibility = 'visible';
+});
+
+// ✅ (optionally) Hide DIV on mouse out
+RightEyeId.addEventListener("mouseout", function handleMouseOut() {
+  RightEyeDiv.style.visibility = "hidden";
 
   // 👇️ if you used visibility property to hide the div
   // hiddenDiv.style.visibility = 'hidden';
