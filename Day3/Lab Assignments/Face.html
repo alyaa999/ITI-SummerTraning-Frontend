@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleface.css" />
+    <title>Face</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="300" height="300">
+      <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        const img = new Image(); // Create new img element
+        img.src = "smiley.png"; // Set source path
+        const img2 = new Image();
+        img2.src = "sad.png";
+        // After the image is loaded, draw it on the canvas
+        img.onload = function () {
+          // Clear the canvas
+
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          // Move and scale the image
+          drawImage1(); // Initial image
+
+          canvas.addEventListener("mouseover", () => {
+            drawImage2(); // Change to second image on hover
+          });
+
+          canvas.addEventListener("mouseout", () => {
+            drawImage1(); // Change back to first image on mouseout
+          });
+        };
+        function drawImage1() {
+          canvas.width = "300";
+          canvas.height = "300";
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          ctx.drawImage(img, 0, 0); // Draw the image at position (0,0)
+        }
+        function drawImage2() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          canvas.width = "300";
+          canvas.height = "500";
+          ctx.translate(0, 100);
+          ctx.drawImage(img2, 0, 0);
+        }
+      </script>
+    </canvas>
+  </body>
+</html>
