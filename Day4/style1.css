@@ -1,0 +1,62 @@
+.child {
+  border: 1px solid red;
+}
+
+.container {
+  border: 1px solid red;
+  height: 9vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  height: 90vh;
+}
+
+.img {
+  border: 1px solid red;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 3vmin;
+  /* take min font size between height and width view port and put it as 2% from min as font size  */
+}
+.avatar {
+  width: 70%;
+  border-radius: 50%;
+  height: 80%;
+}
+
+.icon-img {
+  margin-right: 10px;
+  height: 1vmin; /*  Relative to the font-size of the element   */
+}
+
+.icon-title {
+  /* take 2% min of height and width */
+  font-size: 3vmin;
+}
+.main-img {
+  width: 100%;
+  height: 100%;
+}
+
+.post-img {
+  width: 100%;
+  height: 30vmin;
+}
+.post-content {
+  display: flex;
+}
+p {
+  border: 1px crimson solid;
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: 10px;
+  font-size: 1.6vmin;
+}
